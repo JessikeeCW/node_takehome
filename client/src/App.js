@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Selection from './components/Selection';
 import './App.css';
 
-function App() {
+const App = () => {
+// const [state,setState]=useState({})
+
+  // const selectDate = () => {
+  //   //insert logic here to select a date
+  // }
   return (
-    <div className="App">
-      <header className="App-header">
-       Hello
-      </header>
+    <div className="App" >
+      {/* <Date/> */}
+       <Selection/>
+     
     </div>
   );
 }
