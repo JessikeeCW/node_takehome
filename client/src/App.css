@@ -51,8 +51,9 @@
 .dropdown:hover .dropdownBtn {
   background-color: rgb(255, 187, 0);
 }
-
-
 .show {
   display:block;
+}
+.confirm {
+display: flex;
 }
